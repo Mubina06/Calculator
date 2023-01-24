@@ -9,37 +9,22 @@
 
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="335dp"
-        android:layout_height="47dp"
-        android:text="6,291÷5"
-        android:textAlignment="textEnd"
-        android:textColor="#3A3535"
-        android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.973"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.195" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="335dp"
-        android:layout_height="96dp"
-        android:text="1,258.2"
+        android:id="@+id/textView1"
+        android:layout_width="329dp"
+        android:layout_height="198dp"
+        android:text=""
         android:textAlignment="textEnd"
         android:textColor="@color/white"
         android:textSize="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.986"
+        app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton10"
+        android:id="@+id/c"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="4dp"
@@ -49,13 +34,13 @@
         android:textAlignment="center"
         android:textSize="40sp"
         app:cornerRadius="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton11"
+        app:layout_constraintEnd_toStartOf="@+id/pm"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton11"
+        android:id="@+id/pm"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="4dp"
@@ -65,11 +50,11 @@
         android:textAlignment="center"
         android:textSize="25sp"
         app:cornerRadius="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton13"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintEnd_toStartOf="@+id/foiz"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton13"
+        android:id="@+id/foiz"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="4dp"
@@ -79,37 +64,39 @@
         android:textAlignment="center"
         android:textSize="40sp"
         app:cornerRadius="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton14"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintEnd_toStartOf="@+id/boluv"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton14"
+        android:id="@+id/boluv"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
         android:backgroundTint="#4B5EFC"
         android:text="÷"
         android:textAlignment="center"
         android:textSize="40sp"
         app:cornerRadius="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton15"
+        android:id="@+id/kopaytiruv"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
         android:backgroundTint="#4B5EFC"
         android:text="x"
         android:textAlignment="center"
         android:textSize="25sp"
         app:cornerRadius="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton14" />
+        app:layout_constraintTop_toBottomOf="@+id/boluv" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton16"
+        android:id="@+id/nine"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="12dp"
@@ -119,11 +106,11 @@
         android:textAlignment="center"
         android:textSize="40sp"
         app:cornerRadius="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton15"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton13" />
+        app:layout_constraintEnd_toStartOf="@+id/kopaytiruv"
+        app:layout_constraintTop_toBottomOf="@+id/foiz" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton17"
+        android:id="@+id/eight"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="12dp"
@@ -133,11 +120,11 @@
         android:textAlignment="center"
         android:textSize="35sp"
         app:cornerRadius="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton16"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton11" />
+        app:layout_constraintEnd_toStartOf="@+id/nine"
+        app:layout_constraintTop_toBottomOf="@+id/pm" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton18"
+        android:id="@+id/seven"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="12dp"
@@ -146,26 +133,27 @@
         android:textAlignment="center"
         android:textSize="40sp"
         app:cornerRadius="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton17"
-        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintEnd_toStartOf="@+id/eight"
+        app:layout_constraintHorizontal_bias="0.76"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton10" />
+        app:layout_constraintTop_toBottomOf="@+id/c" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton19"
+        android:id="@+id/minus"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
         android:backgroundTint="#4B5EFC"
         android:text="-"
         android:textAlignment="center"
         android:textSize="40sp"
         app:cornerRadius="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton15" />
+        app:layout_constraintTop_toBottomOf="@+id/kopaytiruv" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton20"
+        android:id="@+id/six"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="12dp"
@@ -175,11 +163,11 @@
         android:textAlignment="center"
         android:textSize="40sp"
         app:cornerRadius="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton19"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton16" />
+        app:layout_constraintEnd_toStartOf="@+id/minus"
+        app:layout_constraintTop_toBottomOf="@+id/nine" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton21"
+        android:id="@+id/five"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="12dp"
@@ -189,11 +177,11 @@
         android:textAlignment="center"
         android:textSize="40sp"
         app:cornerRadius="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton20"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton17" />
+        app:layout_constraintEnd_toStartOf="@+id/six"
+        app:layout_constraintTop_toBottomOf="@+id/eight" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton22"
+        android:id="@+id/four"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="12dp"
@@ -202,26 +190,27 @@
         android:textAlignment="center"
         android:textSize="40sp"
         app:cornerRadius="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton21"
+        app:layout_constraintEnd_toStartOf="@+id/five"
         app:layout_constraintHorizontal_bias="0.761"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton18" />
+        app:layout_constraintTop_toBottomOf="@+id/seven" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton23"
+        android:id="@+id/plus"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
         android:backgroundTint="#4B5EFC"
         android:text="+"
         android:textAlignment="center"
         android:textSize="40sp"
         app:cornerRadius="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton19" />
+        app:layout_constraintTop_toBottomOf="@+id/minus" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton24"
+        android:id="@+id/three"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="12dp"
@@ -231,11 +220,11 @@
         android:textAlignment="center"
         android:textSize="40sp"
         app:cornerRadius="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton23"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton20" />
+        app:layout_constraintEnd_toStartOf="@+id/plus"
+        app:layout_constraintTop_toBottomOf="@+id/six" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton25"
+        android:id="@+id/two"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="12dp"
@@ -245,11 +234,11 @@
         android:textAlignment="center"
         android:textSize="40sp"
         app:cornerRadius="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton24"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton21" />
+        app:layout_constraintEnd_toStartOf="@+id/three"
+        app:layout_constraintTop_toBottomOf="@+id/five" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton26"
+        android:id="@+id/one"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="12dp"
@@ -259,16 +248,17 @@
         android:textAlignment="center"
         android:textSize="40sp"
         app:cornerRadius="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton25"
+        app:layout_constraintEnd_toStartOf="@+id/two"
         app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton22" />
+        app:layout_constraintTop_toBottomOf="@+id/four" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton27"
+        android:id="@+id/teng"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
         android:backgroundTint="#4B5EFC"
         android:text="="
         android:textAlignment="center"
@@ -276,27 +266,28 @@
         app:cornerRadius="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton23"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/plus"
+        app:layout_constraintVertical_bias="0.018" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton28"
+        android:id="@+id/delete"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="20dp"
         android:backgroundTint="#4E505F"
-        app:icon="@drawable/ic_button"
-        app:iconSize="30sp"
-        app:iconGravity="start"
+        android:text="D"
+        android:textSize="40sp"
         app:cornerRadius="24dp"
+        app:iconGravity="start"
+        app:iconSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton27"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton24"
+        app:layout_constraintEnd_toStartOf="@+id/teng"
+        app:layout_constraintTop_toBottomOf="@+id/three"
         app:layout_constraintVertical_bias="0.0" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton29"
+        android:id="@+id/zero"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:layout_marginEnd="20dp"
@@ -306,12 +297,12 @@
         android:textSize="40sp"
         app:cornerRadius="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton28"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton25"
-        app:layout_constraintVertical_bias="0.222" />
+        app:layout_constraintEnd_toStartOf="@+id/delete"
+        app:layout_constraintTop_toBottomOf="@+id/two"
+        app:layout_constraintVertical_bias="0.085" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton30"
+        android:id="@+id/nuqta"
         android:layout_width="71.75dp"
         android:layout_height="72dp"
         android:backgroundTint="#4E505F"
@@ -320,9 +311,9 @@
         android:textSize="40sp"
         app:cornerRadius="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton29"
+        app:layout_constraintEnd_toStartOf="@+id/zero"
         app:layout_constraintHorizontal_bias="0.761"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton26"
-        app:layout_constraintVertical_bias="0.222" />
+        app:layout_constraintTop_toBottomOf="@+id/one"
+        app:layout_constraintVertical_bias="0.085" />
 </androidx.constraintlayout.widget.ConstraintLayout>
